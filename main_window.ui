@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>748</width>
+    <height>909</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 12pt &quot;隶书&quot; ;
+background-color: rgb(26, 26, 33);
+color: rgb(230, 230, 230);
+padding = 0;
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_14" stretch="1,10,10,10,2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="header_widget" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,1,1,4,1,5,1,1,1,1,1">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="titile_icon_label">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/list/音乐.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="titile_name_label">
+        <property name="text">
+         <string>余音绕梁</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="search_edit">
+        <property name="styleSheet">
+         <string notr="true">border: 1px solid rgb(230,230,230);  
+border-radius: 12px;  
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="search_btn">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+          <normaloff>:/list/搜索.png</normaloff>:/list/搜索.png</iconset>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_6">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="set_btn">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+          <normaloff>:/list/设置.png</normaloff>:/list/设置.png</iconset>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="theme_btn">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+          <normaloff>:/list/皮肤.png</normaloff>:/list/皮肤.png</iconset>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="min_btn">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+          <normaloff>:/list/最小化.png</normaloff>:/list/最小化.png</iconset>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="max_btn">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+          <normaloff>:/list/最大化.png</normaloff>:/list/最大化.png</iconset>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="exit_btn">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+          <normaloff>:/list/退出.png</normaloff>:/list/退出.png</iconset>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="main_widget" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,4">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="tab_widget" native="true">
+        <property name="styleSheet">
+         <string notr="true">border-radius: 5px;
+padding:20px</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,1,1,2,1">
+         <item>
+          <widget class="QPushButton" name="recommend_tabbtn">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string> 推荐音乐</string>
+           </property>
+           <property name="icon">
+            <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+             <normaloff>:/list/精选音乐.png</normaloff>:/list/精选音乐.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="mine_tabbtn">
+           <property name="text">
+            <string> 我的音乐</string>
+           </property>
+           <property name="icon">
+            <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+             <normaloff>:/list/我的音乐.png</normaloff>:/list/我的音乐.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="mv_tabbtn">
+           <property name="text">
+            <string> 我的视频</string>
+           </property>
+           <property name="icon">
+            <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+             <normaloff>:/list/MV.png</normaloff>:/list/MV.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="about_tabbtn">
+           <property name="text">
+            <string> 关于作者</string>
+           </property>
+           <property name="icon">
+            <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+             <normaloff>:/list/关于.png</normaloff>:/list/关于.png</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="currentIndex">
+         <number>4</number>
+        </property>
+        <widget class="QWidget" name="recommend_page_widget">
+         <layout class="QVBoxLayout" name="verticalLayout" stretch="1,4">
+          <item>
+           <widget class="QWidget" name="widget_10" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="styleSheet">
+                <string notr="true">font: 18pt;</string>
+               </property>
+               <property name="text">
+                <string>阳春白雪无凡曲，流水高山有至音。</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item alignment="Qt::AlignBottom">
+              <widget class="QPushButton" name="recommend_wordcloud_btn">
+               <property name="styleSheet">
+                <string notr="true">font:10pt</string>
+               </property>
+               <property name="text">
+                <string> 词云</string>
+               </property>
+               <property name="icon">
+                <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+                 <normaloff>:/list/词云.png</normaloff>:/list/词云.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="recommend_music_list_widget">
+            <property name="lineWidth">
+             <number>1</number>
+            </property>
+            <property name="verticalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::ExtendedSelection</enum>
+            </property>
+            <property name="flow">
+             <enum>QListView::TopToBottom</enum>
+            </property>
+            <property name="spacing">
+             <number>1</number>
+            </property>
+            <property name="selectionRectVisible">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="mine_page_widget">
+         <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,4">
+          <item>
+           <widget class="QWidget" name="widget_8" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="styleSheet">
+                <string notr="true">font: 18pt;</string>
+               </property>
+               <property name="text">
+                <string>曲终人不见，江上数峰青。</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_9">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item alignment="Qt::AlignBottom">
+              <widget class="QPushButton" name="mine_delete_btn">
+               <property name="styleSheet">
+                <string notr="true">font:10pt</string>
+               </property>
+               <property name="text">
+                <string>删除</string>
+               </property>
+               <property name="icon">
+                <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+                 <normaloff>:/list/删除.png</normaloff>:/list/删除.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignBottom">
+              <widget class="QPushButton" name="mine_wordcloud_btn">
+               <property name="styleSheet">
+                <string notr="true">font:10pt</string>
+               </property>
+               <property name="text">
+                <string> 词云</string>
+               </property>
+               <property name="icon">
+                <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+                 <normaloff>:/list/词云.png</normaloff>:/list/词云.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="mine_music_list_widget">
+            <property name="lineWidth">
+             <number>1</number>
+            </property>
+            <property name="verticalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::ExtendedSelection</enum>
+            </property>
+            <property name="flow">
+             <enum>QListView::TopToBottom</enum>
+            </property>
+            <property name="spacing">
+             <number>1</number>
+            </property>
+            <property name="selectionRectVisible">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="search_page_widget">
+         <layout class="QVBoxLayout" name="verticalLayout_8" stretch="1,4">
+          <item>
+           <widget class="QWidget" name="widget_9" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="styleSheet">
+                <string notr="true">font: 18pt;</string>
+               </property>
+               <property name="text">
+                <string>寻声暗问弹者谁？琵琶声停欲语迟。</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_10">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item alignment="Qt::AlignBottom">
+              <widget class="QPushButton" name="download_btn">
+               <property name="styleSheet">
+                <string notr="true">font:10pt</string>
+               </property>
+               <property name="text">
+                <string> 下载</string>
+               </property>
+               <property name="icon">
+                <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+                 <normaloff>:/list/下载 .png</normaloff>:/list/下载 .png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="search_music_list_widget">
+            <property name="verticalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::ExtendedSelection</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="about_page_widget">
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="QTextBrowser" name="textBrowser">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(26, 26, 33);
+color: rgb(230, 230, 230);</string>
+            </property>
+            <property name="verticalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'隶书'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'隶书','PingFang SC','HanHei SC','Arial'; font-size:15pt; color:#e6e6e6; background-color:#1a1a21;&quot;&gt;	&amp;quot;人类的探索大致可以分为两种：一种是走向宇宙更深处，一种是走向人心更深处。音乐属于后者。&amp;quot;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'隶书','PingFang SC','HanHei SC','Arial'; font-size:15pt; color:#e6e6e6;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'隶书','PingFang SC','HanHei SC','Arial'; font-size:15pt; color:#e6e6e6; background-color:#1a1a21;&quot;&gt;更多功能，仍在紧急开发中。欢迎交流讨论!&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'隶书','PingFang SC','HanHei SC','Arial'; font-size:15pt; color:#e6e6e6; background-color:#1a1a21;&quot;&gt;电子邮箱：&lt;/span&gt;&lt;span style=&quot; font-family:'Helvetica Neue','Arial','PingFang SC','Hiragino Sans GB','STHeiti','隶书','sans-serif'; font-size:15pt; color:#e6e6e6; background-color:#1a1a21;&quot;&gt;lty_cs@mails.ccnu.edu.cn&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Microsoft Yahei','PingFang SC','HanHei SC','Arial'; font-size:10pt; color:#e6e6e6;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/list/程序员.png&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="mv_page_widget">
+         <layout class="QVBoxLayout" name="verticalLayout_9" stretch="1,4">
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="styleSheet">
+             <string notr="true">font: 18pt;</string>
+            </property>
+            <property name="text">
+             <string>东舟西舫悄无言，唯见江心秋月白。</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="mv_list_widget">
+            <property name="verticalScrollBarPolicy">
+             <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::ExtendedSelection</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="lrc_widget" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="1,1,4,1">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <item alignment="Qt::AlignLeft|Qt::AlignTop">
+          <widget class="QPushButton" name="return_btn1">
+           <property name="styleSheet">
+            <string notr="true">image:url(:/list/返回.png);
+border-radius: 12px;  </string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_11">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>73</width>
+             <height>129</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_3" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,5,1">
+         <item>
+          <spacer name="horizontalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="lrc_cover_label">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_8">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_4" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_4" stretch="1,1,8">
+         <item>
+          <widget class="QLabel" name="lrc_title_label">
+           <property name="text">
+            <string>暂无歌曲</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lrc_artist_label">
+           <property name="styleSheet">
+            <string notr="true">font:10pt</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="lrc_list_widget">
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="verticalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="spacing">
+            <number>2</number>
+           </property>
+           <property name="viewMode">
+            <enum>QListView::ListMode</enum>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+           <property name="itemAlignment">
+            <set>Qt::AlignHCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_12">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+     <zorder>widget_4</zorder>
+     <zorder>widget_3</zorder>
+     <zorder>horizontalSpacer_12</zorder>
+     <zorder>widget_2</zorder>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="mv_widget" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_14" stretch="1,3,1">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_14" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_12">
+         <item alignment="Qt::AlignLeft|Qt::AlignTop">
+          <widget class="QPushButton" name="return_btn2">
+           <property name="styleSheet">
+            <string notr="true">image:url(:/list/返回.png);
+border-radius: 12px;  </string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_17">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>73</width>
+             <height>178</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QVideoWidget" name="mv_play_widget" native="true"/>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_20">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="control_widget" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="2,3,8,1,1,2,1">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="cover_label">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QLabel" name="music_title_label">
+           <property name="styleSheet">
+            <string notr="true">font:10pt</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="music_artist_label">
+           <property name="styleSheet">
+            <string notr="true">font:8pt</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_7" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QWidget" name="widget_5" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="2,0,1,1,1,0,2">
+            <item>
+             <spacer name="horizontalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="playmode_btn">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+                <normaloff>:/list/顺序播放.png</normaloff>:/list/顺序播放.png</iconset>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pre_play_btn">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+                <normaloff>:/list/上一曲.png</normaloff>:/list/上一曲.png</iconset>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="play_pause_btn">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+                <normaloff>:/list/暂停.png</normaloff>:/list/暂停.png</iconset>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="next_play_btn">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+                <normaloff>:/list/下一曲.png</normaloff>:/list/下一曲.png</iconset>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="lrc_btn">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+                <normaloff>:/list/歌词.png</normaloff>:/list/歌词.png</iconset>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_6" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,8,1">
+            <item>
+             <widget class="QLabel" name="current_duration_label">
+              <property name="text">
+               <string>-:-</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="progress_slider">
+              <property name="styleSheet">
+               <string notr="true">QSlider::groove:horizontal{ 
+		height: 3px; 
+		left: 0px; 
+		right: 0px; 
+		border:0px;   
+	    border-radius:20px;
+background:rgb(77,77,87);    
+	
+ } 
+ QSlider::handle:horizontal{ 
+		width:  20px; 
+		height: 20px; 
+	
+		margin-top: -20px; 
+		margin-bottom: -20px; 
+	
+		
+	border-image: url(:/list/滑块.png);
+ 		
+} 
+QSlider::sub-page:horizontal{
+	   background:rgba(80,166,234,1);
+}
+
+</string>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="invertedAppearance">
+               <bool>false</bool>
+              </property>
+              <property name="invertedControls">
+               <bool>false</bool>
+              </property>
+              <property name="tickPosition">
+               <enum>QSlider::NoTicks</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="total_duration_label">
+              <property name="text">
+               <string>-:-</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="volume_btn">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc">
+          <normaloff>:/list/音量_高.png</normaloff>:/list/音量_高.png</iconset>
+        </property>
+        <property name="flat">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="volume_slider">
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSlider::groove:horizontal{ 
+		height: 5px; 
+		left: 0px; 
+		right: 0px; 
+		border:0px;   
+	    border-radius:20px;
+background:rgb(77,77,87);    
+	
+ } 
+ QSlider::handle:horizontal{ 
+		width:  20px; 
+		height: 20px; 
+	
+		margin-top: -20px; 
+		margin-bottom: -20px; 
+	
+		
+
+	border-image: url(:/list/滑块.png);
+ 		
+} 
+QSlider::sub-page:horizontal{
+	   background:rgba(80,166,234,1);
+}
+
+</string>
+        </property>
+        <property name="maximum">
+         <number>100</number>
+        </property>
+        <property name="value">
+         <number>80</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="volume_label">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt</string>
+        </property>
+        <property name="text">
+         <string>80%</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QVideoWidget</class>
+   <extends>QWidget</extends>
+   <header>PyQt5.QtMultimediaWidgets</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>mine_music_list_widget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="E:/BaiduSyncdisk/Project/PythonProject/MusicPlayer/Images/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
