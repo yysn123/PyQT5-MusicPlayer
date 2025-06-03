@@ -1,0 +1,39 @@
+<RCC>
+  <qresource prefix="list">
+    <file>返回.png</file>
+    <file>MV.png</file>
+    <file>test.jpg</file>
+    <file>词云.png</file>
+    <file>删除.png</file>
+    <file>滑块.png</file>
+    <file>播放列表.png</file>
+    <file>播放中.png</file>
+    <file>程序员.png</file>
+    <file>单曲循环.png</file>
+    <file>歌词.png</file>
+    <file>更多.png</file>
+    <file>关于.png</file>
+    <file>精选音乐.png</file>
+    <file>列表循环.png</file>
+    <file>皮肤.png</file>
+    <file>全部播放.png</file>
+    <file>上一曲.png</file>
+    <file>设置.png</file>
+    <file>顺序播放.png</file>
+    <file>搜索.png</file>
+    <file>随机播放.png</file>
+    <file>退出.png</file>
+    <file>我的音乐.png</file>
+    <file>下一曲.png</file>
+    <file>下载 .png</file>
+    <file>音乐.png</file>
+    <file>音量_低.png</file>
+    <file>音量_高.png</file>
+    <file>音量_关.png</file>
+    <file>音量_中.png</file>
+    <file>暂停.png</file>
+    <file>最大化.png</file>
+    <file>最大化还原.png</file>
+    <file>最小化.png</file>
+  </qresource>
+</RCC>
